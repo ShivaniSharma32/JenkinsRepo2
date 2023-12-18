@@ -7,6 +7,7 @@ public class ParamtersTest {
 		public void bTest()
 		{
 		    System.out.println("Welcome");
+		    System.out.println("to ParamtersJenkins");
 			String BROWSER = System.getProperty("browser");
 			String URL = System.getProperty("url");
 			System.out.println(BROWSER);
