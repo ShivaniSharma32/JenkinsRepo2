@@ -3,10 +3,8 @@ package JenkinPractice;
 import org.testng.annotations.Test;
 
 public class ParamtersTest {
-
-	public class Demo2Test {
 		@Test
-		public void aTest()
+		public void bTest()
 		{
 		
 			String BROWSER = System.getProperty("browser");
@@ -16,4 +14,4 @@ public class ParamtersTest {
 			
 	}
 	}
-}
+
